@@ -24060,6 +24060,11 @@
       "FilePath": "c:\\Users\\matheus.s.vaz\\MyRazorApp\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matheus.s.vaz\\MyRazorApp\\Pages\\Categories.cshtml",
+      "TargetPath": "Pages\\Categories.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
