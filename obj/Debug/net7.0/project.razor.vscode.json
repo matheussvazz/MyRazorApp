@@ -24055,6 +24055,11 @@
       "FilePath": "c:\\Users\\matheus.s.vaz\\MyRazorApp\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matheus.s.vaz\\MyRazorApp\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
