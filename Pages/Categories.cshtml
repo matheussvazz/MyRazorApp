@@ -1,5 +1,8 @@
 @page
 @model MyRazorApp.Pages.Categories
+@{
+    ViewData["Title"] = "Categorias";
+}
 
 <h1>Categorias</h1>
 <table>
@@ -11,7 +14,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var category in Model.Categories)
+        @foreach (var category in Model.CategoryList)
         {
             <tr>
                 <td>@category.Id</td>
