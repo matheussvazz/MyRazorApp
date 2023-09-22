@@ -27,3 +27,7 @@ build_metadata.AdditionalFiles.CssScope =
 [c:/Users/matheus.s.vaz/MyRazorApp/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/matheus.s.vaz/MyRazorApp/Pages/Shared/NavMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE5hdk1lbnVQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
