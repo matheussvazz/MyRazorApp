@@ -24045,6 +24045,16 @@
       "FilePath": "c:\\Users\\matheus.s.vaz\\MyRazorApp\\Pages\\Shared\\NavMenuPartial.cshtml",
       "TargetPath": "Pages\\Shared\\NavMenuPartial.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matheus.s.vaz\\MyRazorApp\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\matheus.s.vaz\\MyRazorApp\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
