@@ -1,29 +1,27 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+
 
 namespace MyRazorApp.Pages
 {
     public class Index : PageModel
     {
-        private readonly ILogger<Index> _logger;
-
-        public Index(ILogger<Index> logger)
+        public List<Category> Categories { get; set; } = new();
+        public async Task OnGet() // vai ser sempre executado quando a pagina estiver sendo renderizada
         {
-            _logger = logger;
-        }
 
-        public void OnGet() // vai ser sempre executado quando a pagina estiver sendo renderizada
-        {
-        }
-
-        public void OnPost()
-        {
+            await Task.Delay(5000);
+            for (int i = 0; i < 100; i++)
+            {
+                Categories.Add(
+                    new Category(i,
+                     $"Categoria{i}",
+                      i * 18.95M));
+            }
         }
 
     }
+
+    public record Category(int Id, string Title, decimal Price);
+
 }

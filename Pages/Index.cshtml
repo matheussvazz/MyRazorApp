@@ -7,5 +7,23 @@
 <h1>@ViewData["Title"]</h1>
 
 <div>
-
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Title</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model.Categories)
+            {
+                <tr>
+                    <td>@category.Id</td>
+                    <td>@category.Title</td>
+                    <td>@category.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
